@@ -57,8 +57,8 @@ http {
             set $Roboo_challenge_modes      "SWF,gzip";             # SWF or JS, optionally gzip for encoding ("JS,gzip" or "SWF,gzip")
             
             # Defaults
-            #set $Roboo_cookie_name             "Anti-Robot";           # Cookie name used for challenge/response
-            #set $Roboo_validity_window         600;                    # Authentication validity time window
+            #set $Roboo_cookie_name             "Security";           # Cookie name used for challenge/response
+            #set $Roboo_validity_window         900;                    # Authentication validity time window
             #set $Roboo_whitelist               "IP(),UA(''),URI('')";  # Whitelist - IP addresses (CIDR), user-agents or URIs (PCRE)
             #set $Roboo_charset                 "UTF-8";                # Charset used during challenge (for proper POST resubmissions)
             #set $Roboo_challenge_hash_input    $remote_addr;           # Advanced - challenge hash basis, can add $server_name$server_port$http_host$http_user_agent
